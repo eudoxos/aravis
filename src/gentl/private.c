@@ -1,13 +1,13 @@
 #include"private.h"
 
 G_DEFINE_TYPE(ArvGentlEvent,arv_gentl_event,G_TYPE_OBJECT);
-static void arv_gentl_event_class_init(ArvGentlEventClass*){}
-static void arv_gentl_event_init(ArvGentlEvent*){}
+static void arv_gentl_event_class_init(ArvGentlEventClass* self){}
+static void arv_gentl_event_init(ArvGentlEvent* self){}
 
 
 G_DEFINE_TYPE(ArvTransportLayer,arv_transport_layer,G_TYPE_OBJECT);
-static void arv_transport_layer_class_init(ArvTransportLayerClass*){}
-static void arv_transport_layer_init(ArvTransportLayer*){}
+static void arv_transport_layer_class_init(ArvTransportLayerClass* self){}
+static void arv_transport_layer_init(ArvTransportLayer* self){}
 
 /* global variables */
 int gentl_GCInitLib = 0;
